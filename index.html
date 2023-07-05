@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>CipherByte Technologies</title>
+  <meta name="title">
+  <meta name="description" content="">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="images/logo.png" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="images/hero-bg.jpg">
+  <link rel="preload" as="image" href="images/hero-slide-1.jpg">
+  <link rel="preload" as="image" href="images/hero-slide-2.jpg">
+  <link rel="preload" as="image" href="images/hero-slide-3.jpg">
+
+
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="images/logo.png" width="74" height="24" alt="Adex home" class="logo-light" style="border-radius: 50%;">
+
+        <img src="images/logo.png" width="74" height="24" alt="Adex home" class="logo-dark" style="border-radius: 50%;">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="images/logo.png" width="74" height="24" alt="CipherByte" style="border-radius: 50%;">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#ABOUT" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#INTERNSHIPS" class="navbar-link">Internships</a>
+          </li>
+
+          <li>
+            <a href="#CONTACT" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:cipherbyteTechnologies@gmail.com" class="contact-link">cipherbyteTechnologies@gmail.com</a>
+
+          <!-- <a href="tel:001234567890" class="contact-link">00 (123) 456 78 90</a> -->
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://www.instagram.com/cipherbyte_tech/" class="social-link" target="_blank">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.linkedin.com/company/cipherbyte-technologies/" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-bg-image" aria-label="home"
+        style="opacity: 0.89; background-image: url('images/hero-bg.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title" style="font-family: Poppins; font-weight: bold;">CipherByte Technologies</h1>
+
+            <p class="hero-text">
+              We’re a creative company that focuses on establishing long-term relationships with customers.
+            </p>
+
+            <div class="btn-wrapper">
+
+              <a href="https://forms.gle/Ssc6PjKyLhPCKvR79" class="btn btn-primary" target="_blank">Intrested </a>
+
+              <a href="#CONTACT" class="btn btn-outline">Contact Us</a>
+
+            </div>
+
+          </div>
+
+          <div class="hero-slider" data-slider>
+
+            <div class="slider-inner">
+              <ul class="slider-container" data-slider-container>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="images/hero-banner.png" width="575" height="550" alt="" class="img-cover banner-animation ">
+                  </figure>
+
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <!-- <section class="section service" aria-labelledby="service-label">
+        <div class="container">
+
+          <h1 class="section-subtitle" id="service-label">What We Do?</h1>
+
+          <h2 class="h2 section-title">
+            The service we offer is specifically designed to meet your needs.
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="call-outline" aria-hidden="true";"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">24/7 Support</h3>
+
+                <p class="card-text">
+                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
+                  justo.
+                </p>
+
+                <a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Secure Payments</h3>
+
+                <p class="card-text">
+                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
+                  justo.
+                </p>
+
+                <a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Daily Updates</h3>
+
+                <p class="card-text">
+                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
+                  justo.
+                </p>
+
+                <a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="pie-chart-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Market Research</h3>
+
+                <p class="card-text">
+                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
+                  justo.
+                </p>
+
+                <a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+ -->
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="about" aria-labelledby="about-label" id="ABOUT">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="images/about-banner.jpg" width="800" height="580" loading="lazy" alt="about banner"
+              class="w-100 banner-animation">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle" id="about-label">Why Choose Us?</p>
+
+            <h2 class="h2 section-title">
+              We bring solutions to make life easier for our clients.
+            </h2>
+
+           
+
+             
+                <div class="accordion-card expanded" data-accordion>
+                  <p class="accordion-content">
+                    At CipherByte Technologies, we are dedicated to providing interns with a transformative experience that serves as a solid foundation for their future careers. Join us and unlock your potential in a dynamic and supportive environment. 
+                    Apply today and take the first step towards an exciting internship opportunity.
+                  </p>
+
+                </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <section class="section feature" aria-labelledby="feature-label">
+        <div class="container">
+
+          <figure class="feature-banner">
+            <img src="images/feature-banner.jpg" width="800" height="531" loading="lazy" alt="feature banner"
+              class="w-100 banner-animation">
+          </figure>
+
+          <div class="feature-content">
+
+            <p class="section-subtitle" id="feautre-label">Our Solutions</p>
+
+            <h2 class="h2 section-title">
+              Our internships are designed to provide a launching pad for your future career. 
+            </h2>
+
+            <p class="section-text">
+              We believe in recognizing and celebrating your achievements.
+              Apply today to embark on an enriching internship journey with us.
+            </p>
+
+            <ul class="feature-list">
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Structured Training Programs.
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Real-World Projects.
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Mentorship and Guidance.
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Professional Development Opportunities.
+                  </span>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #STATS
+      -->
+
+      <!-- <section class="stats" aria-label="our stats">
+        <div class="container">
+
+          <ul class="stats-card has-bg-image" style="background-image: url('images/stats-bg.jpg')">
+
+            <li>
+              <p class="card-text">
+                <span class="h1">7518</span>
+
+                <spna class="span">Completed Projects</spna>
+              </p>
+            </li>
+
+            <li>
+              <p class="card-text">
+                <span class="h1">3472</span>
+
+                <spna class="span">Happy Customers</spna>
+              </p>
+            </li>
+
+            <li>
+              <p class="card-text">
+                <span class="h1">2184</span>
+
+                <spna class="span">Expert Employees</spna>
+              </p>
+            </li>
+
+            <li>
+              <p class="card-text">
+                <span class="h1">4523</span>
+
+                <spna class="span">Awards Won</spna>
+              </p>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+ -->
+
+
+
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section class="section project" aria-labelledby="project-label" id="INTERNSHIPS">
+        <div class="container">
+
+          <p class="section-subtitle" id="project-label">Internships We Offer</p>
+
+          <h2 class="h2 section-title">
+            Check out some of our awesome projects with creative ideas and great design.
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="images/web.avif" loading="lazy"
+                    alt="Ligula tristique quis risus" class="img-cover banner-animation" style="width : 250px; height: 250px; margin: auto;" >
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Web Development</a>
+                  </h3>
+
+                  <p class="card-text">
+                  A web development internship is an excellent choice for aspiring developers. 
+                  It provides hands-on experience, exposure to real-world projects, mentorship from industry professionals, and opportunities to enhance technical and soft skills. 
+                  It serves as a stepping stone to a rewarding career in web development.
+                  </p>
+
+                  <a href="https://forms.gle/Ssc6PjKyLhPCKvR79" target="_blank" class="btn"style="opacity: 0.9; background-color: #FEC625;">Apply Now</a>
+
+                  <!-- <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2022-04-14">14 Apr 2022</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="meta-text">Coding</span>
+                    </li>
+
+                  </ul> -->
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="images/android.png" width="560" height="350" loading="lazy"
+                    alt="Nullam id dolor elit id nibh" class="img-cover banner-animation" style="width : 250px; height: 250px; margin: auto;">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Android Development</a>
+                  </h3>
+
+                  <p class="card-text">
+                   An Android development internship offers a valuable opportunity to gain practical experience in building mobile applications for the popular Android platform. 
+                   It provides hands-on learning, exposure to industry-standard tools and frameworks, 
+                   mentorship from experienced professionals, and a pathway to a successful career.
+                  </p>
+
+                  <a href="https://forms.gle/Ssc6PjKyLhPCKvR79" target="_blank" class="btn"style="opacity: 0.9; background-color: #FEC625;">Apply Now</a>
+
+                  <!-- <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2022-03-29">29 Mar 2022</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="meta-text">Workspace</span>
+                    </li>
+
+                  </ul> -->
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="images/java.avif" width="560" height="350" loading="lazy"
+                    alt="Ultricies fusce porta elit" class="img-cover banner-animation" style="width : 250px; height: 250px; margin: auto;">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Java Programming</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Java programming internship offers numerous benefits. Java is a widely used programming language in various industries, making it a valuable skill. 
+                    An internship provides hands-on experience, exposure to real-world projects, mentorship from experts, and opening doors to exciting career opportunities in software development.
+                  </p>
+
+                  <a href="https://forms.gle/Ssc6PjKyLhPCKvR79" target="_blank" class="btn"style="opacity: 0.9; background-color: #FEC625;">Apply Now</a>
+
+                  <!-- <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2022-02-26">26 Feb 2022</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="meta-text">Meeting</span>
+                    </li>
+
+                  </ul> -->
+
+                </div>
+
+              </div>
+            </li>
+          </ul>
+
+
+          <ul class="grid-list" style="margin-top: 30px;">
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="images/c++.avif" width="560" height="350" loading="lazy"
+                    alt="Nullam id dolor elit id nibh" class="img-cover banner-animation" style="width : 250px; height: 250px; margin: auto;">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">C++ Programming</a>
+                  </h3>
+
+                  <p class="card-text">
+                    C++ programming internship provides individuals with a chance to develop their skills in one of the most widely used programming languages. It offers practical experience in software development, 
+                    exposure to C++ frameworks and libraries, mentorship from experienced professionals, and opportunities to work on complex projects, laying a solid foundation for a career in programming.
+                  </p>
+
+                  <a href="https://forms.gle/Ssc6PjKyLhPCKvR79" target="_blank" class="btn"style="opacity: 0.9; background-color: #FEC625;">Apply Now</a>
+                  <!-- <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2022-03-29">29 Mar 2022</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="meta-text">Workspace</span>
+                    </li>
+
+                  </ul> -->
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="images/datascience.webp" width="560" height="350" loading="lazy"
+                    alt="Nullam id dolor elit id nibh" class="img-cover banner-animation">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Data Science</a>
+                  </h3>
+
+                  <p class="card-text">
+                    A data science internship offers a unique opportunity to gain hands-on experience in analyzing and deriving insights from large datasets. It provides exposure to various data analysis techniques, machine learning algorithms, and data visualization tools. 
+                    A data science internship equips individuals with in-demand skills and prepares them for a rewarding career in data-driven decision making and problem-solving.
+                  </p>
+
+                  <a href="https://forms.gle/Ssc6PjKyLhPCKvR79" target="_blank" class="btn"style="opacity: 0.9; background-color: #FEC625;">Apply Now</a>
+
+                  <!-- <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2022-03-29">29 Mar 2022</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="meta-text">Workspace</span>
+                    </li>
+
+                  </ul> -->
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="images/python.avif" width="560" height="350" loading="lazy"
+                    alt="Nullam id dolor elit id nibh" class="img-cover banner-animation">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Python Programming</a>
+                  </h3>
+
+                  <p class="card-text">
+                     Python programming internship can be highly advantageous. 
+                     Python is a versatile and widely-used language known for its simplicity and extensive libraries. An internship in Python programming provides practical experience, 
+                     exposure to industry projects. Unlock your potential in software development, data analysis, and machine learning with hands-on experience in one of the most versatile and widely-used programming languages.
+                  </p>
+
+                  <a href="https://forms.gle/Ssc6PjKyLhPCKvR79" target="_blank" class="btn" style="opacity: 0.9; background-color: #FEC625;">Apply Now</a>
+
+                  <!-- <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2022-03-29">29 Mar 2022</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="meta-text">Workspace</span>
+                    </li>
+
+                  </ul> -->
+
+                </div>
+
+              </div>
+            </li>
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <!-- <section class="cta" aria-label="call to action">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            Join our community by using our services and grow your business.
+          </h2>
+
+          <a href="#" class="btn btn-primary">Try it For Free</a>
+
+        </div>
+      </section> -->
+
+      <section class="section project" aria-labelledby="contact-label" id="CONTACT">
+
+        <div class="container contact" style="min-height: 100vh;
+        width: 100vw;
+        text-align: center;">
+        <p class="section-subtitle" id="contact-label">Contact Us</p>
+  
+        <div class="row" style="display: flex;
+        align-items: center;
+        justify-content: center;">
+  
+          <div class="image">
+            <img src="images/contact.avif" alt="Conatct us">
+          </div>
+  
+          <div class="form-container" style=" width: 50%;
+          text-align: left;
+          padding:0 5rem;">
+            <form  >
+  
+              <div class="inputBox" style="width: 100%; display: flex; justify-content: space-between;">
+                <input name="name" type="text" placeholder="first name" required style="width: 49%;  outline: none;
+                border:none;
+                height:4rem;
+                background: none;
+                border-radius: .5rem;
+                box-shadow: .2rem .2rem .5rem rgba(0,0,0,.2);
+                padding:0 1rem;
+                margin:1rem 0;
+                font-size: 1.6rem;"></input>
+                <input type="text" placeholder="last name" required style="width: 49%;  outline: none;
+                border:none;
+                height:4rem;
+                background: none;
+                border-radius: .5rem;
+                box-shadow: .2rem .2rem .5rem rgba(0,0,0,.2);
+                padding:0 1rem;
+                margin:1rem 0;
+                font-size: 1.6rem;">
+              </div>
+  
+              <input name="email" type="email" placeholder="email" required style=" outline: none;
+              border:none;
+              height:4rem;
+              background: none;
+              border-radius: .5rem;
+              box-shadow: .2rem .2rem .5rem rgba(0,0,0,.2);
+              padding:0 1rem;
+              margin:1rem 0;
+              font-size: 1.6rem;">
+              <textarea name="message" id="" cols="30" rows="10" placeholder="message" required style="
+              outline: none;
+  border:none;
+  height:4rem;
+  background: none;
+  border-radius: .5rem;
+  box-shadow: .2rem .2rem .5rem rgba(0,0,0,.2);
+  padding:0 1rem;
+  margin:1rem 0;
+  font-size: 1.6rem;
+  width: 100%;
+              height:20rem;
+              padding:1rem; 
+              resize: none;"></textarea>
+              <a href="mailto:cipherbytetechnologies@gmail.com" class="btn" style="opacity: 0.9; background-color: #FEC625;">Send</a>
+              
+  
+            </form>
+          </div>
+  
+        </div>
+      </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container grid-list">
+
+      <div class="footer-brand">
+
+        <a href="#" class="logo">
+          <img src="images/logo.png" width="84" height="34" alt="CipherByte Technologies"  id="footerlogo">
+        </a>
+
+        <p class="footer-text">
+          &copy; 2022 CipherByte Technologies. <br> All rights reserved.
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.linkedin.com/company/cipherbyte-technologies/" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/cipherbyte_tech/" class="social-link" target="_blank">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link" target="_blank">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in Touch</p>
+        </li>
+
+        <li>
+          <address class="footer-text">
+           Military Road, Kolkata - 700056
+          </address>
+        </li>
+
+        <li>
+          <a href="mailto:cipherbytetechnologies@gmail.com" class="footer-link">Mail Us: cipherbytetechnologies@gmail.com</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Learn More</p>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Home</a>
+        </li>
+
+        <li>
+          <a href="#ABOUT" class="footer-link">About</a>
+        </li>
+
+        <li>
+          <a href="#INTERNSHIPS" class="footer-link">Internships</a>
+        </li>
+
+        <li>
+          <a href="#CONTACT" class="footer-link">Contact</a>
+        </li>
+
+      </ul>
+
+      <div class="footer-list">
+
+        <p class="h4 footer-list-title">Our Newsletter</p>
+
+        <p class="footer-text">
+          Subscribe to our newsletter to get our news & deals delivered to you.
+        </p>
+
+        <form action="" class="input-wrapper">
+          <input type="email" name="email_address" placeholder="Email Address" required class="input-field">
+
+          <button type="submit" class="submit-btn" ><a href="mailto:cipherbytetechnologies@gmail.com">Join</a></button>
+        </form>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
